@@ -1,0 +1,143 @@
+body {
+  margin:0;
+	padding:0;
+  color: #29A088;
+}
+section,ul,li,span,div,p,h1,h2,header,footer,nav, img{
+	margin:0;
+	padding:0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color: #d8d6d5;
+}
+nav {
+  width: 150px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+nav ul li {
+  margin-left: 10px;
+  line-height: 30px;
+}
+.tabs {
+  margin-bottom: 20px;
+}
+.btn {
+	padding: 5px 10px;
+	border: 1px solid #eae7e2;
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 10px;
+	min-width: 150px;
+	cursor: pointer;
+}
+.container {
+  vertical-align: top;
+  margin-left: 50px;
+  display: inline-block;
+}
+.container img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+.container .tabs li {
+  display: inline-block;
+  padding-top: 20px;
+	border: 1px solid #eeece7;
+  width: 25%;
+  height: 70px;
+	margin-right: -5px;
+  background-color: #EBF7F5;
+  text-align: center;
+}
+.container .tabs li span{
+  padding:10px;
+}
+
+.container .tabs li:last-child{
+  margin-left: -5px;
+}
+.email {
+  border-top: 1px  dashed #E2E2E2;
+  border-bottom: 1px  dashed #E2E2E2;
+}
+.email i, .email p{
+  line-height: 30px;
+  display: inline-block;
+}
+.email i {
+  width: 10%;
+  display: inline-block;
+}
+.email p {
+  width:69%;
+}
+.content{
+  width: 100%;
+  margin-top: 20px;
+}
+.content li{
+  width: 250px;
+  display: inline-block;
+  padding-right: 20px;
+}
+.content li :last-child{
+  padding-right: -20px;
+}
+.content li img {
+  border: 1px solid  #E2E2E2;
+  padding: 10px;
+  width: 230px;
+  height: 200px;
+}
+.content li a {
+  color: #29A088;
+}
+
+.content-font-size {
+  font-size: 16px;
+}
+
+.date{
+  color: #A4A4A4;
+}
+
+.content  li  p{
+  color: #2A2A2A;
+  font-size: 14px;
+}
+footer {
+  width:100%;
+  border: 1px solid #E2E2E2;
+  line-height: 100px;
+}
+footer .left , footer .right{
+  display: inline-block;
+  line-height: 100%;
+  width: 40%;
+}
+footer .left {
+  margin-left: 20px;
+}
+footer .right {
+  width: 12%;
+  margin-left: 600px;
+}
+.left li {
+  line-height: 50%;
+  display: inline-block;
+  width: 12%;
+  border: 1px solid  #E2E2E2;
+}
