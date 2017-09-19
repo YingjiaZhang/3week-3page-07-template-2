@@ -2,10 +2,15 @@ body {
   margin:0;
 	padding:0;
   color: #29A088;
+  width:100%;
+  text-align: center;
 }
 section,ul,li,span,div,p,h1,h2,header,footer,nav, img{
 	margin:0;
 	padding:0;
+}
+ul,li,span,div,p {
+  text-align: left;
 }
 li {
 	list-style: none;
@@ -18,7 +23,7 @@ a:hover {
 	color: #d8d6d5;
 }
 nav {
-  width: 150px;
+  width: 10%;
   margin-left: 20px;
   display: inline-block;
 }
@@ -44,6 +49,7 @@ nav ul li {
 	cursor: pointer;
 }
 .container {
+  width: 70%;
   vertical-align: top;
   margin-left: 50px;
   display: inline-block;
@@ -60,9 +66,9 @@ nav ul li {
   height: 70px;
 	margin-right: -5px;
   background-color: #EBF7F5;
-  text-align: center;
+  text-align: left ;
 }
-.container .tabs li span{
+.container .tabs li span, .container .tabs li p {
   padding:10px;
 }
 
@@ -89,19 +95,17 @@ nav ul li {
   margin-top: 20px;
 }
 .content li{
-  width: 250px;
+  width: 25%;
   display: inline-block;
-  padding-right: 20px;
-}
-.content li :last-child{
-  padding-right: -20px;
+  margin-right: -5px;
 }
 .content li img {
   border: 1px solid  #E2E2E2;
   padding: 10px;
-  width: 230px;
-  height: 200px;
+  width: 90%;
+  height: 250px;
 }
+
 .content li a {
   color: #29A088;
 }
@@ -111,6 +115,7 @@ nav ul li {
 }
 
 .date{
+  display: inline-block;
   color: #A4A4A4;
 }
 
@@ -123,20 +128,22 @@ footer {
   border: 1px solid #E2E2E2;
   line-height: 100px;
 }
-footer .left , footer .right{
+footer .left {
   display: inline-block;
   line-height: 100%;
   width: 40%;
-}
-footer .left {
+  text-align: left;
   margin-left: 20px;
 }
 footer .right {
-  width: 12%;
-  margin-left: 600px;
+  display: inline-block;
+  line-height: 100%;
+  width: 40%;
+  text-align: right;
 }
+
 .left li {
-  line-height: 50%;
+  line-height: 30px;
   display: inline-block;
   width: 12%;
   border: 1px solid  #E2E2E2;
