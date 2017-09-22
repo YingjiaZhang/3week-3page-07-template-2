@@ -300,6 +300,51 @@ footer .footer-left {
     color: #878787;
 }
 
+@media screen and (max-width: 850px) {  /* 浏览器显示宽度小于850px显示 */
+    body {
+        padding: 0;
+    }
+
+    .container .content {
+        flex-direction: column;
+    }
+
+    .content .aside-section {
+        display: none;
+    }
+
+    .content .left-aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.3em 0;
+        width: 100%;
+    }
+
+    .left-aside .logo {
+        padding: 0;
+    }
+
+    .left-aside .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+     .nav .nav-item {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin: 1.5em;
+     }
+
+    .left-aside .iconfont {
+        font-size: 1.3em;
+        margin: 5px 0;
+    }
+}
+
+
 
 
 
