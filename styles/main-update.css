@@ -142,7 +142,7 @@ body {
     positon: relative;
     color: white;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .panel-content button {
@@ -317,7 +317,7 @@ footer .footer-left {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 1.3em 0;
+        padding: 1.2em 0;
         width: 100%;
     }
 
@@ -330,19 +330,152 @@ footer .footer-left {
         flex-direction: row;
     }
 
-     .nav .nav-item {
+    .nav .nav-item {
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         margin: 1.5em;
-     }
+         margin:10px;
+    }
 
-    .left-aside .iconfont {
+    .nav-item .iconfont {
         font-size: 1.3em;
         margin: 5px 0;
     }
+
+    .nav-item a {
+        font-size: 0.8em;
+    }
+
+    .panel-nav .highlight {
+        height: 2.5em;
+        font-size: 0.9em;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .highlight-title {
+        padding: 10px auto;
+    }
+
+    .highlight-content {
+        display: none;
+    }
+
 }
+
+@media screen and (max-width: 650px) {  /* 浏览器显示宽度小于650px显示 */
+
+    .content .left-aside {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .left-aside .logo {
+        order: 2;
+        padding: 2em;
+        width: 200px;
+        height: 200px;
+    }
+
+    .left-aside .nav {
+        border-bottom: 2px solid #DFDFDF;
+    }
+
+    .nav .nav-item .iconfont {
+        display: none;
+    }
+
+    .nav-item a {
+        font-size: 1.5em;
+    }
+
+    .show-panel .panel-content {
+        align-items: inherit;
+        background: none;
+        height: auto;
+    }
+
+    .show-panel .panel-nav {
+        display: none;
+    }
+
+    .panel-content .panel-image {
+        width: 100%;
+        display: block;
+    }
+
+    .panel-content h1 {
+        margin-top: 0;
+        font-size: 1.4em;
+    }
+
+    .panel-content h3 {
+        font-size: 1.2em;
+    }
+
+    .panel-content button {
+        bottom: -25px;
+        right: 0;
+    }
+
+    .right-content .notice {
+        margin: 10%;
+        padding: 20px 0;
+        flex-wrap: wrap;
+        align-item: flex-start;
+    }
+
+    .notice .notice-content {
+        width: 80%;
+        font-size: 0.7em;
+        padding: 10px;
+    }
+
+    .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .posts .post {
+        width: 70%;
+        padding-bottom: 1.3em;
+    }
+
+    .post .post-image {
+        height: auto;
+    }
+
+    footer .footer-left {
+        font-size: 10px;
+    }
+
+    .footer-links .footer-link {
+        padding: 0 4px;
+    }
+
+    .footer-right .iconfont {
+        font-size: 1em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 
